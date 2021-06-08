@@ -1,0 +1,2 @@
+sudo umount /ltfs
+sudo mt -f /dev/st0 eject

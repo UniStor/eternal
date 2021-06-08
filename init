@@ -1,0 +1,21 @@
+pre(){
+export instDir=~/.uni/fs
+mkdir -p $instDir
+cd $instDir
+}
+
+clone(){
+pre
+reposrc=https://github.com/UniStor/eternal.git
+git clone $reposrc
+}
+
+install(){
+clone
+cd $instDir/eternal
+ln -srf bash ~/bin
+}
+
+main(){
+install
+}

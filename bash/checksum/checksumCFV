@@ -1,0 +1,32 @@
+path=''
+this=`dirname`
+
+link(){
+ln -srf .efs/${name}.sfv
+}
+
+mkEfs(){
+cd tar:
+mkdir -p .efs
+}
+
+sumCrc(){
+cfv -Crr
+mv $this.sfv .efs/
+}
+
+sumSha1(){
+cfv -Crrt sha1
+mv $this.sha1 .efs/
+}
+
+sumMd5(){
+cfv -Crrt md5
+mv $this.sha1 .efs/
+}
+
+main(){
+mkEfs
+sumCrc
+sumSha1
+}
