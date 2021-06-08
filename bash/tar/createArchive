@@ -1,0 +1,6 @@
+directory=$1
+output=$2
+
+simpleTar(){
+tar -cvpf $output/$directory.tar $directory
+}

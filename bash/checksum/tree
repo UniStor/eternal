@@ -1,0 +1,9 @@
+tree(){
+tree > .efs/tree
+}
+
+mkEfs(){
+cd tar:
+mkdir -p .efs
+}
+

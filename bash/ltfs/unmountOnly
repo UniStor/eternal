@@ -1,0 +1,6 @@
+sudo umount /ltfs
+
+status(){
+echo 'check until finished unmounting!'
+#when
+}
