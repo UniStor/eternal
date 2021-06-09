@@ -1,0 +1,1 @@
+sudo zfs send my-objectfs@totape | sudo zfs recv recoverZfs/my-objectfs
