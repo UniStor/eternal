@@ -13,7 +13,7 @@ git clone $reposrc
 install(){
 clone
 cd $instDir/eternal
-ln -srf bash ~/bin
+ln -srf src ~/bin
 }
 
 main(){
