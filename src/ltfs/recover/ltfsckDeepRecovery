@@ -1,0 +1,1 @@
+sudo ltfsck --deep-recovery --syslogtrace HUJ4260W3L
