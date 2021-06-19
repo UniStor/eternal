@@ -1,0 +1,3 @@
+# Partially received snapshot is saved.
+A resuming stream can be generated on the sending system by running:
+    zfs send -t 1-bfeeda655-c0-789c636064000310a500c4ec50360710e72765a526973030c86540d460c8a7a515a796806466bd6782cab321c9275596a41603e91372cfb513b1e82fc94f2fcd4c616090e19ff52de9de45490324794eb07c5e626e2a03436ea52ec42969c50e25f9258905a90c700000593e1cb7
